@@ -12,5 +12,4 @@ public abstract class Animal {
                 "name='" + name + '\'' +
                 '}';
     }
-
 }
