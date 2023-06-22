@@ -2,7 +2,7 @@ package abstarct;
 
 public abstract class Mammal extends Animal {
 
-    Mammal(String name) {
+    protected Mammal(String name) {
         super(name);
     }
 

@@ -1,6 +1,6 @@
 package abstarct;
 public abstract class Animal {
-    String name;
+    protected String name;
 
     Animal (String name){
         this.name=name;
