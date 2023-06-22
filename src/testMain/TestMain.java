@@ -12,6 +12,8 @@ public class TestMain {
         Dog dog =new Dog("Riko");
         System.out.println(dog);
         dog.greets();
-        dog.greets(dog);
+        Dog dog2 =new Dog("Fafik");
+        System.out.println(dog2);
+        dog2.greets(dog);
     }
 }

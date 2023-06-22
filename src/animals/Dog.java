@@ -14,8 +14,8 @@ public class Dog extends Mammal {
 
     @Override
     public String toString() {
-        return "Dog{Mammal{Animal{" +
-                "name=" + name +
-                "}}}";
+        return "Dog (Mammal): " +
+                "name = " + name +
+                ".";
     }
 }
