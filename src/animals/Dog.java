@@ -3,8 +3,9 @@ package animals;
 import abstarct.Mammal;
 public class Dog extends Mammal {
     /**
-     * Nadanje imie pieskowi
+     * Nadanje imienia i wieku pieskowi
      * @param name imie
+     * @param howOld wiek
      */
     public Dog(String name, int howOld) {
         super(name,howOld);
@@ -27,7 +28,9 @@ public class Dog extends Mammal {
 
     /**
      * Wypisanie informacji o psie
-     * @return imie psa
+     * @return name imie psa
+     * @return howOld wiek psa
+     *
      */
     @Override
     public String toString() {

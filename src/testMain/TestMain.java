@@ -5,6 +5,9 @@ import animals.Dog;
 
 public class TestMain {
     public static void main(String[] args) {
+        /**
+         * Wyprobowanie działania programu
+         */
         Cat cat = new Cat("Gordon",10);
         System.out.println(cat);
         cat.greets();
