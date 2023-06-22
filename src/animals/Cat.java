@@ -3,8 +3,8 @@ package animals;
 import abstarct.Mammal;
 
 public class Cat extends Mammal {
-    public Cat(String name) {
-        super(name);
+    public Cat(String name, int howOld) {
+        super(name,howOld);
     }
     public void greets(){
         System.out.println("Meow ");
@@ -14,6 +14,7 @@ public class Cat extends Mammal {
     public String toString() {
         return "Cat (Mammal): " +
                 "name = " + name +
+                "age= " + howOld +
                 ".";
     }
 }
