@@ -2,7 +2,7 @@ package abstarct;
 public abstract class Animal {
     protected String name;
 
-    Animal (String name){
+    protected Animal (String name){
         this.name=name;
     }
 
