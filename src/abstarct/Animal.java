@@ -4,6 +4,7 @@ package abstarct;
  * @author szymanska
  * @version 1.0
  */
+
 public abstract class Animal {
     protected String name;
     protected int howOld;

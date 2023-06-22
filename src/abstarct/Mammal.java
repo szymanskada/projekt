@@ -3,6 +3,7 @@ package abstarct;
  * @author szymanska
  * @version 1.0
  */
+
 public abstract class Mammal extends Animal {
     /**
      * Informacje o ssaku
