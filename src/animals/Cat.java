@@ -3,10 +3,10 @@ package animals;
 import abstarct.Mammal;
 
 public class Cat extends Mammal {
-    Cat(String name) {
+    public Cat(String name) {
         super(name);
     }
-    void greets(){
+    public void greets(){
         System.out.println("Meow ");
     }
 
