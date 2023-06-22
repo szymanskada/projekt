@@ -2,7 +2,10 @@ package testMain;
 
 import animals.Cat;
 import animals.Dog;
-
+/**
+ * @author szymanska
+ * @version 1.0
+ */
 public class TestMain {
     public static void main(String[] args) {
         /**

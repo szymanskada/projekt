@@ -1,6 +1,10 @@
 package animals;
 
 import abstarct.Mammal;
+/**
+ * @author szymanska
+ * @version 1.0
+ */
 public class Dog extends Mammal {
     /**
      * Nadanje imienia i wieku pieskowi

@@ -1,7 +1,10 @@
 package animals;
 
 import abstarct.Mammal;
-
+/**
+ * @author szymanska
+ * @version 1.0
+ */
 public class Cat extends Mammal {
     /**
      * Nadanje imienia i wieku kotkowi
